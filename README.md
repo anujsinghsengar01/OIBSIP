@@ -11,23 +11,16 @@ This repository contains all tasks and projects completed during the Oasis Infob
 ---
 
 ## 📝 Tasks Overview
-### **Task 1**
-(Write the task name here – e.g., Online Reservation System)  
-✔ Objective:  
-✔ Features:  
-✔ Tools Used:  
+### **Task 1 - Online reservation system**
 
-### **Task 2**
-(Write the task name)  
-✔ Objective:  
-✔ Implementation:  
-✔ Output:  
+### **Task 2 - Number Guessing Game**
 
-### **Task 3**
-(Write the task name)  
-✔ Objective:  
-✔ Implementation:  
-✔ Output:  
+### **Task 3 - ATM Interface**
+
+### **Task 4 - Online Examination**
+
+### **Task 5 - Digital library management**
+
 
 ---
 
