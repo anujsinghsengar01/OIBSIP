@@ -17,13 +17,14 @@ public class bankingAtm { //STATIC VARIABLE(USED BY MANY FUNCTIONS)
          double tranfer;
          boolean isRunning = true;
 
-        if(loginPage()==false){
+        if(loginPage()==false){ //userlogin page
             System.out.println("---------------------------");
-            System.out.println("3 UNSUCCESFULL ATTEMPTS ! SECURITY LOGGING OUT !!");
+            System.out.println("3 - UNSUCCESFULL ATTEMPTS ! SECURITY LOGGING OUT !!");
             System.out.println("---------------------------");
             isRunning=false;//CODE STOP 
 
         }
+
         //INTRO AND MENU
          while(isRunning){
          System.out.println("---------------------------");   
@@ -160,12 +161,12 @@ public class bankingAtm { //STATIC VARIABLE(USED BY MANY FUNCTIONS)
     }
     static boolean loginPage() {
         HashMap<String, String> users = new HashMap<>();
-        users.put("admin", "1234");
+        users.put("admin", "1234"); // RANDOM PASS AND USERID
         users.put("user1", "9876");
         users.put("anuj", "don");
         int attempts = 0;
 
-        while (attempts!=3) {
+        while (attempts<3) {
             System.out.print("Enter Username: ");
             String username = sc.next();
 
